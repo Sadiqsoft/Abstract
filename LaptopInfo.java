@@ -6,15 +6,17 @@ public class LaptopInfo {
         HP hp = new HP();
         Dell dell = new Dell();
         hp.keyBoard();
+        Asus asus = new Asus();
 
         hp.fingerPrint();
         dell.fingerPrint();
+        asus.fingerPrint();
         hp.touchScreen();
         dell.touchScreen();
+        asus.touchScreen();
         hp.faceRecognition();
         dell.faceRecognition();
-
-
+        asus.faceRecognition();
 
 
     }
